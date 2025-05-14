@@ -2,11 +2,21 @@
 
 # Docker Concepts Advanced Cheat Sheet
 
-This cheat sheet summarizes the essential ideas and commands that help you understand how Docker works and how to use it effectively.
+This cheat sheet summarizes the essential ideas and commands for understanding how Docker works, and helps you understand how Docker uses disk and memory resources in practice.
 
 ---
 
 ## 📦 Core Docker Concepts
+
+### 0. **Docker**
+- Docker is a technology that lets you package and run applications in a portable, self-contained way — so they behave the same across different machines, operating systems, and environments.
+  - For example, you can deploy a web server on a remote VPS you just rented, and it runs exactly as it did on your laptop — no manual dependency setup, no configuration mismatches.
+  - You can share a complete development environment with teammates or contributors, so they can get started instantly without installing languages, frameworks, or tools — everything comes bundled inside the container.
+- To work with Docker — run containers, build images, manage volumes, etc. — you need to install Docker on your machine.
+  - The official installer takes care of everything — it sets up the Docker Engine, command-line tools, and optional desktop app, all in one go.
+- Docker is a **Linux-native** application. On macOS and Windows, it runs inside a lightweight Linux virtual machine, which is set up automatically by the Docker installer.
+- On all systems, Docker runs as a background service (also called the Docker daemon or Docker Engine).
+- You can manage Docker through the command-line interface, or with Docker Desktop, a graphical application that provides a visual way to manage containers, images, and more.
 
 ### 1. **Image**
 - A snapshot/blueprint of an application and its environment.
