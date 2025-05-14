@@ -184,8 +184,9 @@ docker system prune --volumes  # Also removes unused volumes
 
 ---
 
-## 🎯 Why This Cheat Sheet?
-I created this Docker concepts cheat sheet to solidify my understanding of Docker and help others quickly grasp the key ideas and commands!
+## ☕ Buy Me a Coffee
+
+If you found this cheat sheet helpful and want to support my work, you can [buy me a coffee](https://www.buymeacoffee.com/miikapirtola)! 
 
 ---
 
