@@ -2,7 +2,6 @@
 
 # Docker Concepts Advanced Cheat Sheet
 
-A concise reference for core Docker concepts, commands, and workflows.  
 This cheat sheet summarizes the essential ideas and commands that help you understand how Docker works and how to use it effectively.
 
 ---
